@@ -23,3 +23,11 @@
 - nodemon works with ts-node
 - nodemon uses ts-node behind the scene to make sure the server restart every time the code changed and saved
 - you can use "npx nodemon ./src/example.ts" in the terminal to watch example.ts file
+
+## package.json
+
+- "dev": "nodemon": it will look up content of "main" by default if you don't specify
+
+## ts docs
+
+- https://www.typescriptlang.org/
