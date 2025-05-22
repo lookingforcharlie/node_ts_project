@@ -2,7 +2,7 @@ name: Build and Test
 
 on:
   push:
-    branches: [master]
+    branches: [master, 'feature/**', 'bug/**']
   pull_request:
     branches: [master]
 
