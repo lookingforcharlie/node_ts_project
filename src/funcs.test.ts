@@ -9,4 +9,8 @@ describe('calculateWordValue', () => {
   it('should return the correct value for the word "friendship"', () => {
     expect(calculateWordValue('friendship')).toBe(108)
   })
+
+  it('this test should fail', () => {
+    expect(false).toBe(true)
+  })
 })
