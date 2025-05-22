@@ -4,8 +4,14 @@ const mafiaNames: string[] = [
   'Michael Corleone',
   'Lucky Luciano',
   'Al Capone',
+  'Lefty Ruggiero',
+  'Donnie Brasco',
 ]
 
-mafiaNames.forEach((name) => {
-  console.log(name)
-})
+function myForEach<T>(array: T[], callback: (item: T) => void) {
+  for (let i = 0; i < array.length; i++) {
+    callback(array[i])
+  }
+}
+
+myForEach(mafiaNames, (name) => console.log(name))

@@ -72,4 +72,6 @@ function getLanguagesAbove60(languages: Record<string, number>): string[] {
     .map(([name, _]) => name)
 }
 
-console.log(getLanguagesAbove60(programmingLanguages))
+// console.log(getLanguagesAbove60(programmingLanguages))
+
+export { calculateWordValue, explosion, getLanguagesAbove60 }
