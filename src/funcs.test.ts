@@ -2,7 +2,7 @@ import { describe, expect, it, test } from 'vitest'
 import { calculateWordValue, explosion, getLanguagesAbove60 } from './jsfuncs'
 
 describe('calculateWordValue', () => {
-  test('should return the correct value for the word "love"', () => {
+  it('should return the correct value for the word "love"', () => {
     expect(calculateWordValue('love')).toBe(54)
   })
 
@@ -10,7 +10,11 @@ describe('calculateWordValue', () => {
     expect(calculateWordValue('friendship')).toBe(108)
   })
 
-  it('this test should fail', () => {
-    expect(false).toBe(true)
+  it('should return the correct value for the word "a"', () => {
+    expect(calculateWordValue('a')).toBe(1)
   })
+
+  // it('this test should fail', () => {
+  //   expect(false).toBe(true)
+  // })
 })
