@@ -1,11 +1,13 @@
 name: Build and Test
 
+# Events like push, pull_request and etc that trigger the workflow
 on:
   push:
     branches: [master, 'feature/**', 'bug/**']
   pull_request:
     branches: [master]
 
+# Consider using a matrix strategy if building a library of a package with multiple versions
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
