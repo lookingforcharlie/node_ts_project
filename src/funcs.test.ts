@@ -14,7 +14,7 @@ describe('calculateWordValue', () => {
     expect(calculateWordValue('a')).toBe(1)
   })
 
-  // it('this test should fail', () => {
-  //   expect(false).toBe(true)
-  // })
+  it('this test should fail', () => {
+    expect(false).toBe(true)
+  })
 })

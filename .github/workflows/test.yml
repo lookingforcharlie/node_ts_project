@@ -6,6 +6,7 @@ on:
   pull_request:
     branches: [master]
 
+# Consider using a matrix strategy if building a library of a package with multiple versions
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
