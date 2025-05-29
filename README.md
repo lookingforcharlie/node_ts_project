@@ -36,3 +36,13 @@
 ## ts docs
 
 - https://www.typescriptlang.org/
+
+## vitest
+
+- npm i -D vitest
+- npm i -D @vitest/coverage-v8
+- "test": "vitest" in package.json: search the whole directory for any file that has the word 'test' inside of it
+
+## GitHub Actions
+
+- [Events that trigger workflows](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows)
